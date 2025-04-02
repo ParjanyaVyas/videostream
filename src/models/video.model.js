@@ -15,9 +15,9 @@ const videoSchema = new Schema(
             type: String,
             required: [true, "Title is required"],
         },
-        discrption: {
+        description: {
             type: String,
-            required: [true, "Discrption is required"],
+            required: [true, "Description is required"],
         },
         duration: {
             type: Number,
