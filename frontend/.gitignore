@@ -1,0 +1,38 @@
+# Node modules
+/node_modules
+
+# Build output
+/dist
+/build
+/out
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and OS specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Caching directories
+.vite/
+.turbo/
+
+# Tailwind CSS specific
+tailwind.config.cjs.bak # If a backup is created during setup
+
+# Shadcn UI specific
+components.json # If you're managing components via shadcn/ui CLI and don't want to commit the config
+
+# Test coverage
+/coverage
